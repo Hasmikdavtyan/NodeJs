@@ -1,0 +1,24 @@
+<%- include('header.ejs') %> 
+<link rel="stylesheet" href="../stylesheets/register.css">
+
+<form action=" " method='post'>
+    <div class="container">
+      <h1>LOG IN</h1>
+      <p  class='message'> <%= message%>  </p>
+      <p>Please fill in this form to log in your account.</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+  
+     
+  
+      <button type="submit" class="registerbtn"> Log In</button>
+    </div>
+    
+    
+  </form>
+  
